@@ -1,0 +1,29 @@
+{
+    "version": "1787761233301",
+    "mercaderias": [
+        {
+            "id": 1,
+            "productId": 2,
+            "acquisitionCost": 380,
+            "unitOfMeasure": "Lata 355ml",
+            "initialStock": 80,
+            "isActive": true
+        },
+        {
+            "id": 2,
+            "productId": 4,
+            "acquisitionCost": 280,
+            "unitOfMeasure": "Lata 330ml",
+            "initialStock": 60,
+            "isActive": true
+        },
+        {
+            "id": 3,
+            "productId": 5,
+            "acquisitionCost": 80,
+            "unitOfMeasure": "Taza",
+            "initialStock": 120,
+            "isActive": true
+        }
+    ]
+}
