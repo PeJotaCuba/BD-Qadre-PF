@@ -1,8 +1,8 @@
 {
-    "version": "1787820534412",
-    "urlUsuariosJson": "https:\/\/github.com\/PeJotaCuba\/BD-Qadre-PF\/blob\/6edc204db3459dcd8fe581543b84cfb634ccb15f\/qusuarios.json",
-    "urlCatalogoJson": "https:\/\/github.com\/PeJotaCuba\/BD-Qadre-PF\/blob\/6edc204db3459dcd8fe581543b84cfb634ccb15f\/qcatalogo.json",
-    "urlMercainvJson": "https:\/\/github.com\/PeJotaCuba\/BD-Qadre-PF\/blob\/6edc204db3459dcd8fe581543b84cfb634ccb15f\/qmercainv.json",
+    "version": "1788019654371",
+    "urlUsuariosJson": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/qusuarios.json",
+    "urlCatalogoJson": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/qcatalogo.json",
+    "urlMercainvJson": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/qmercainv.json no",
     "usuarios": [
         {
             "username": "adminq",
@@ -26,6 +26,14 @@
             "passwordHash": "aaaf5406d8cae0486f318f911e598507183061d03ebc689c94e6836ed4d1ed82",
             "role": "CAJERO",
             "montoPorProducto": 7,
+            "isActive": true
+        },
+        {
+            "username": "alexis",
+            "fullName": "Alexis",
+            "passwordHash": "2715c1f2415ed33218538dc8a7eca05af7ecc734d39d10b92a1734d11c53d942",
+            "role": "DUENO",
+            "montoPorProducto": 0,
             "isActive": true
         },
         {
