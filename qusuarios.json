@@ -1,5 +1,5 @@
 {
-    "version": "1788268542208",
+    "version": "1788297824130",
     "urlUsuariosJson": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/qusuarios.json",
     "urlCatalogoJson": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/qcatalogo.json",
     "urlMercainvJson": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/qmercainv.json no",
@@ -50,7 +50,7 @@
             "role": "SALON",
             "montoPorProducto": 6,
             "isActive": true,
-            "telefono": ""
+            "telefono": "54413935"
         }
     ]
 }
