@@ -1,10 +1,10 @@
 {
-    "version": "1788158801409",
+    "version": "1788268542208",
     "urlUsuariosJson": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/qusuarios.json",
     "urlCatalogoJson": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/qcatalogo.json",
     "urlMercainvJson": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/qmercainv.json no",
-    "telefonoDueno": "",
-    "telefonoCajero": "",
+    "telefonoDueno": "54413935",
+    "telefonoCajero": "53535793",
     "telefonoAdmin": "54413935",
     "usuarios": [
         {
