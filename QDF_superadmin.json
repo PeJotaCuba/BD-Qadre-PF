@@ -1,1 +1,10 @@
-
+{
+  "superAdmins": [
+    {
+      "dvc": "DVC-JNNZR5",
+      "usuario": "superpedro",
+      "passwordHash": "1a2bb256f25af0165110733b7ed031fb607adce7d5765b01486fa1dc5ba7cf6c",
+      "estado": "ACTIVO"
+    }
+  ]
+}
