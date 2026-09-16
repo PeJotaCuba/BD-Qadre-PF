@@ -1,0 +1,57 @@
+{
+  "negocio": {
+    "codigo": "001",
+    "nombre": "Pizza Factory",
+    "dvc": "DVC-9CRREF",
+    "telefono": "53924682"
+  },
+  "codigoNegocio": "001",
+  "urlUsuarios": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001usuarios.json",
+  "urlCatalogo": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001catalogo.json",
+  "urlAdmin": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001admin.json",
+  "urlDueño": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001dueño.json",
+  "urlDueno": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001dueño.json",
+  "urlUsuariosJson": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001usuarios.json",
+  "urlCatalogoJson": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001catalogo.json",
+  "urlAdminJson": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001admin.json",
+  "urlQDuenoJson": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001dueño.json",
+  "telefonoDueno": "53924682",
+  "telefonoCajero": "53924682",
+  "telefonoAdmin": "53924682",
+  "version": "1789566487590",
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "admin",
+      "fullName": "Administrador - Pizza Factory",
+      "password": "2233",
+      "passwordHash": "bcac371b54f59945a14aa49e2e408e5d6e4dbc59387f5d8cfc6b015d40d5bb02",
+      "role": "ADMINISTRADOR",
+      "phone": "54413935",
+      "isActive": true,
+      "montoPorProducto": 0,
+      "urlAdmin": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001admin.json",
+      "urlCatalogo": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001catalogo.json",
+      "urlCatalogoJson": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001catalogo.json",
+      "urlUsuarios": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001usuarios.json",
+      "urlDueño": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001dueño.json"
+    },
+    {
+      "id": 5,
+      "username": "julio",
+      "fullName": "Julio Ortiz Tamayo",
+      "password": "1234",
+      "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "role": "DUEÑO",
+      "phone": "53924682",
+      "isActive": true,
+      "montoPorProducto": 0,
+      "urlDueño": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001dueño.json",
+      "urlDueno": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001dueño.json",
+      "urlQDuenoJson": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001dueño.json",
+      "urlAdmin": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001admin.json",
+      "urlCatalogo": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001catalogo.json",
+      "urlUsuarios": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001usuarios.json"
+    }
+  ]
+}
