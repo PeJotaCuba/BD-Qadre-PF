@@ -1,1 +1,20 @@
-
+{
+  "pruebas": [
+    {
+      "codigo": "001",
+      "dvc": "DVC-9CRREF",
+      "nombreNegocio": "Pizza Factory",
+      "dueno": "Julio Ortiz Tamayo",
+      "ciudad": "Bayamo",
+      "numeroMovil": "53924682",
+      "numeroMovilAlt": "55685651",
+      "token": "3TJED6",
+      "usuarioDueño": "julio",
+      "claveDueño": "Julio001",
+      "fechaInicio": "2026-09-17 16:57",
+      "fechaFin": "2026-09-24 16:57",
+      "estado": "ACTIVO",
+      "urlUsuarios": "https:\/\/raw.githubusercontent.com\/PeJotaCuba\/BD-Qadre-PF\/refs\/heads\/main\/Q_001usuarios.json"
+    }
+  ]
+}
