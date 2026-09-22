@@ -1,8 +1,8 @@
 {
-  "product": "ElQadre",
-  "versionCode": 9,
-  "versionName": "1.5.3",
-  "apkUrl": "https://github.com/PeJotaCuba/BD-Qadre-PF/releases/download/v1.1/ElQadre.apk",
-  "releaseDate": "2026-09-18T04:33:36Z",
+  "product": "ElQadrePF",
+  "versionCode": 1,
+  "versionName": "1.0.0",
+  "apkUrl": "https:\/\/github.com\/PeJotaCuba\/BD-Qadre-PF\/releases\/download\/v1.1\/ElQadrePF.apk",
+  "releaseDate": "2026-09-22T07:28:36Z",
   "notes": ""
 }
