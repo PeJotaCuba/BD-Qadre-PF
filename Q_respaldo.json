@@ -3,7 +3,7 @@
   "formatIdentifier": "ELQADRE_FULL_BUSINESS_BACKUP",
   "nombre_archivo": "Q_respaldo.json",
   "version": 2,
-  "timestamp": 1791344897168,
+  "timestamp": 1791574724978,
   "codigoNegocio": "001",
   "nombreNegocio": "Pizzas Factory",
   "bloque_1_insumos_y_agregados": {
@@ -160,7 +160,7 @@
         "id": 2,
         "name": "Harina de trigo",
         "unit": "g",
-        "unitCost": 0.8777671302583558,
+        "unitCost": 0.9662242829200507,
         "isActive": true,
         "stock": 109769.23365999998,
         "initialStock": 146963.808,
@@ -178,7 +178,7 @@
         "purchaseMode": "POR LOTE",
         "purchaseLotUnits": 54,
         "purchaseLotQuantity": 6,
-        "purchaseLotPrice": 21500
+        "purchaseLotPrice": 23500
       },
       {
         "id": 7,
@@ -280,11 +280,11 @@
         "id": 14,
         "name": "Queso",
         "unit": "g",
-        "unitCost": 1.763699536147022,
+        "unitCost": 1.875694456692358,
         "isActive": true,
         "stock": 242494.96655584755,
         "initialStock": 283495,
-        "purchasePrice": 800,
+        "purchasePrice": 850,
         "purchaseUnit": "lb",
         "purchaseQuantity": 625,
         "productId": null,
@@ -668,7 +668,7 @@
         "id": 2,
         "name": "Harina de trigo",
         "unit": "g",
-        "unitCost": 0.8777671302583558,
+        "unitCost": 0.9662242829200507,
         "isActive": true,
         "stock": 109769.23365999998,
         "initialStock": 146963.808,
@@ -686,7 +686,7 @@
         "purchaseMode": "POR LOTE",
         "purchaseLotUnits": 54,
         "purchaseLotQuantity": 6,
-        "purchaseLotPrice": 21500
+        "purchaseLotPrice": 23500
       },
       {
         "id": 18,
@@ -836,11 +836,11 @@
         "id": 14,
         "name": "Queso",
         "unit": "g",
-        "unitCost": 1.763699536147022,
+        "unitCost": 1.875694456692358,
         "isActive": true,
         "stock": 242494.96655584755,
         "initialStock": 283495,
-        "purchasePrice": 800,
+        "purchasePrice": 850,
         "purchaseUnit": "lb",
         "purchaseQuantity": 625,
         "productId": null,
@@ -3705,10 +3705,10 @@
       {
         "id": 13,
         "code": "PF-C-0001",
-        "name": "Pizza Napolitana",
+        "name": "Pizza Napolitana Personal",
         "category": "Cocina",
         "price": 600,
-        "cost": 343.8086482752947,
+        "cost": 363.05967459461664,
         "stock": 10,
         "minStock": 3,
         "destination": "COCINA",
@@ -3719,7 +3719,7 @@
         "admitsAgregados": false,
         "agregadosList": "[]",
         "isConvertedToInsumo": false,
-        "presentacionesEspeciales": "[{\"id\":\"1\",\"name\":\"Familiar\",\"baseEquivalence\":5}]"
+        "presentacionesEspeciales": "[{\"id\":\"1\",\"name\":\"Pizza Napolitana Familiar\",\"baseEquivalence\":5,\"price\":0}]"
       },
       {
         "id": 15,
@@ -3746,7 +3746,7 @@
         "name": "Spaghetti",
         "category": "Cocina",
         "price": 650,
-        "cost": 335.03086643535664,
+        "cost": 510.69514254270575,
         "stock": 10,
         "minStock": 3,
         "destination": "COCINA",
@@ -3802,10 +3802,10 @@
       {
         "id": 13,
         "code": "PF-C-0001",
-        "name": "Pizza Napolitana",
+        "name": "Pizza Napolitana Personal",
         "category": "Cocina",
         "price": 600,
-        "cost": 343.8086482752947,
+        "cost": 363.05967459461664,
         "stock": 10,
         "minStock": 3,
         "destination": "COCINA",
@@ -3816,7 +3816,7 @@
         "admitsAgregados": false,
         "agregadosList": "[]",
         "isConvertedToInsumo": false,
-        "presentacionesEspeciales": "[{\"id\":\"1\",\"name\":\"Familiar\",\"baseEquivalence\":5}]"
+        "presentacionesEspeciales": "[{\"id\":\"1\",\"name\":\"Pizza Napolitana Familiar\",\"baseEquivalence\":5,\"price\":0}]"
       },
       {
         "id": 15,
@@ -3843,7 +3843,7 @@
         "name": "Spaghetti",
         "category": "Cocina",
         "price": 650,
-        "cost": 335.03086643535664,
+        "cost": 510.69514254270575,
         "stock": 10,
         "minStock": 3,
         "destination": "COCINA",
@@ -4208,19 +4208,19 @@
         "isActive": true,
         "recipeName": "Pizza Napolitana",
         "productionUnit": "Unidad",
-        "baseYield": 92,
+        "baseYield": 80,
         "baseMateriaPrimaId": 2,
         "baseQuantity": 9071.84,
-        "estimatedDailyQuantity": 250,
-        "ppd": 250,
+        "estimatedDailyQuantity": 200,
+        "ppd": 200,
         "precioDefinitivo": 600,
         "hasPrecioDefinitivo": true,
         "targetMarginPct": 30,
-        "pagoCocinaUnitario": 10,
+        "pagoCocinaUnitario": 20,
         "cantidadCocineros": 3,
         "isPagoCocinaFijo": false,
-        "pagoDependienteUnitario": 6,
-        "pagoCajeroUnitario": 6
+        "pagoDependienteUnitario": 15,
+        "pagoCajeroUnitario": 15
       },
       {
         "id": 2,
@@ -4248,19 +4248,19 @@
         "isActive": true,
         "recipeName": "",
         "productionUnit": "Unidad",
-        "baseYield": 13,
+        "baseYield": 10,
         "baseMateriaPrimaId": 19,
         "baseQuantity": 2,
-        "estimatedDailyQuantity": 50,
-        "ppd": 50,
+        "estimatedDailyQuantity": 30,
+        "ppd": 30,
         "precioDefinitivo": 650,
         "hasPrecioDefinitivo": true,
         "targetMarginPct": 30,
-        "pagoCocinaUnitario": 1500,
+        "pagoCocinaUnitario": 2000,
         "cantidadCocineros": 1,
         "isPagoCocinaFijo": true,
-        "pagoDependienteUnitario": 6.5,
-        "pagoCajeroUnitario": 6.5
+        "pagoDependienteUnitario": 10,
+        "pagoCajeroUnitario": 10
       }
     ],
     "recetaIngredientes": [
@@ -4401,7 +4401,7 @@
         "id": 25,
         "productoElaboradoId": 13,
         "materiaPrimaId": 3,
-        "quantity": 560,
+        "quantity": 272.1552,
         "unit": "g"
       }
     ],
@@ -4793,8 +4793,8 @@
   "bloque_3_tandas": {
     "titulo": "TANDAS",
     "totalTandas": 4,
-    "totalTandasJornada": 0,
-    "totalTandasCerradas": 4,
+    "totalTandasJornada": 4,
+    "totalTandasCerradas": 0,
     "tandas": [
       {
         "id": 32,
@@ -4811,10 +4811,10 @@
         "estimatedYield": 115.00009380676907,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 11339.81 g, Aceite: 625.00 ml, Levadura: 153.75 g, Sal: 156.25 g, Salsa para pizza: 6000.00 ml, Queso: 12500.01 g, Azúcar: 700.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.72 Unidad\/lb",
+        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.72 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -4833,9 +4833,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 42,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 21000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 4,
@@ -4856,10 +4856,10 @@
         "estimatedYield": 73.60006003633221,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 7257.48 g, Aceite: 400.00 ml, Levadura: 98.40 g, Sal: 100.00 g, Salsa para pizza: 3840.00 ml, Queso: 8000.01 g, Azúcar: 448.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 1 Familiar | Rendimiento: 4.19 Unidad\/lb",
+        "observation": "Pres. Especial: 1 Familiar | Rendimiento: 4.19 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -4878,9 +4878,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 62,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 31000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 1,
@@ -4901,10 +4901,10 @@
         "estimatedYield": 96.60007879768602,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 9525.44 g, Aceite: 525.00 ml, Levadura: 129.15 g, Sal: 131.25 g, Salsa para pizza: 5040.00 ml, Queso: 10500.01 g, Azúcar: 588.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Rendimiento: 4.86 Unidad\/lb",
+        "observation": "Rendimiento: 4.86 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -4923,9 +4923,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 102,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 51000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "",
         "specialPresentationQty": 0,
@@ -4946,10 +4946,10 @@
         "estimatedYield": 85.00006933543803,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 9071.85 g, Aceite: 500.00 ml, Levadura: 123.00 g, Sal: 125.00 g, Salsa para pizza: 4800.00 ml, Queso: 10000.01 g, Azúcar: 560.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.90 Unidad\/lb",
+        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.90 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -4968,17 +4968,16 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 78,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 39000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 4,
         "specialPresentationEquivalence": 5
       }
     ],
-    "tandasJornada": [],
-    "tandasCerradas": [
+    "tandasJornada": [
       {
         "id": 32,
         "uuid": "TANDA-04-1791343662041",
@@ -4994,10 +4993,10 @@
         "estimatedYield": 115.00009380676907,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 11339.81 g, Aceite: 625.00 ml, Levadura: 153.75 g, Sal: 156.25 g, Salsa para pizza: 6000.00 ml, Queso: 12500.01 g, Azúcar: 700.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.72 Unidad\/lb",
+        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.72 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -5016,9 +5015,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 42,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 21000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 4,
@@ -5039,10 +5038,10 @@
         "estimatedYield": 73.60006003633221,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 7257.48 g, Aceite: 400.00 ml, Levadura: 98.40 g, Sal: 100.00 g, Salsa para pizza: 3840.00 ml, Queso: 8000.01 g, Azúcar: 448.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 1 Familiar | Rendimiento: 4.19 Unidad\/lb",
+        "observation": "Pres. Especial: 1 Familiar | Rendimiento: 4.19 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -5061,9 +5060,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 62,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 31000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 1,
@@ -5084,10 +5083,10 @@
         "estimatedYield": 96.60007879768602,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 9525.44 g, Aceite: 525.00 ml, Levadura: 129.15 g, Sal: 131.25 g, Salsa para pizza: 5040.00 ml, Queso: 10500.01 g, Azúcar: 588.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Rendimiento: 4.86 Unidad\/lb",
+        "observation": "Rendimiento: 4.86 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -5106,9 +5105,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 102,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 51000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "",
         "specialPresentationQty": 0,
@@ -5129,10 +5128,10 @@
         "estimatedYield": 85.00006933543803,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 9071.85 g, Aceite: 500.00 ml, Levadura: 123.00 g, Sal: 125.00 g, Salsa para pizza: 4800.00 ml, Queso: 10000.01 g, Azúcar: 560.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.90 Unidad\/lb",
+        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.90 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -5151,15 +5150,16 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 78,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 39000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 4,
         "specialPresentationEquivalence": 5
       }
     ],
+    "tandasCerradas": [],
     "archivoTandas": [
       {
         "id": 32,
@@ -5176,10 +5176,10 @@
         "estimatedYield": 115.00009380676907,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 11339.81 g, Aceite: 625.00 ml, Levadura: 153.75 g, Sal: 156.25 g, Salsa para pizza: 6000.00 ml, Queso: 12500.01 g, Azúcar: 700.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.72 Unidad\/lb",
+        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.72 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -5198,9 +5198,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 42,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 21000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 4,
@@ -5221,10 +5221,10 @@
         "estimatedYield": 73.60006003633221,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 7257.48 g, Aceite: 400.00 ml, Levadura: 98.40 g, Sal: 100.00 g, Salsa para pizza: 3840.00 ml, Queso: 8000.01 g, Azúcar: 448.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 1 Familiar | Rendimiento: 4.19 Unidad\/lb",
+        "observation": "Pres. Especial: 1 Familiar | Rendimiento: 4.19 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -5243,9 +5243,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 62,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 31000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 1,
@@ -5266,10 +5266,10 @@
         "estimatedYield": 96.60007879768602,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 9525.44 g, Aceite: 525.00 ml, Levadura: 129.15 g, Sal: 131.25 g, Salsa para pizza: 5040.00 ml, Queso: 10500.01 g, Azúcar: 588.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Rendimiento: 4.86 Unidad\/lb",
+        "observation": "Rendimiento: 4.86 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -5288,9 +5288,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 102,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 51000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "",
         "specialPresentationQty": 0,
@@ -5311,10 +5311,10 @@
         "estimatedYield": 85.00006933543803,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 9071.85 g, Aceite: 500.00 ml, Levadura: 123.00 g, Sal: 125.00 g, Salsa para pizza: 4800.00 ml, Queso: 10000.01 g, Azúcar: 560.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.90 Unidad\/lb",
+        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.90 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -5333,9 +5333,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 78,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 39000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 4,
@@ -5354,7 +5354,7 @@
       "codigoNegocio": "001",
       "logoPath": null,
       "fechaCreacion": 1790131879377,
-      "fechaActualizacion": 1790132226553
+      "fechaActualizacion": 1791345907639
     },
     "configuracionGeneral": {
       "id": 1,
@@ -5362,7 +5362,7 @@
       "metodosPago": "Efectivo",
       "parametrosJornada": "Apertura automatica:falso,Obligatorio notas de cierre:verdadero",
       "denominacionesCaja": "1000,500,200,100,50,20,10",
-      "tasaUsd": 780,
+      "tasaUsd": 770,
       "tasaEur": 850,
       "telefonoDueno": "",
       "telefonoCajero": "",
@@ -5422,7 +5422,7 @@
     "personalContratado": [
       {
         "id": 1,
-        "nombreCompleto": "Alexis",
+        "nombreCompleto": "Alexis Alejandro Tito Cabrera",
         "carnetIdentidad": "",
         "movil": "55685651",
         "formaPago": "Fijo",
@@ -5459,7 +5459,7 @@
       },
       {
         "username": "alexis",
-        "fullName": "Alexis",
+        "fullName": "Alexis Alejandro Tito Cabrera",
         "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
         "role": "DUENO",
         "montoPorProducto": 0,
@@ -5479,12 +5479,46 @@
         "id": 2,
         "name": "Electricidad",
         "description": "",
-        "amount": 5000,
+        "amount": 2500,
         "period": "MES",
         "periodDays": 30,
         "category": "Electricidad",
         "isActive": true,
-        "createdAt": 1790728644046,
+        "createdAt": 1791482068292,
+        "inversionId": null,
+        "targetProductId": null,
+        "targetProductIds": null,
+        "startDate": null,
+        "endDate": null,
+        "scope": "PRODUCCION"
+      },
+      {
+        "id": 4,
+        "name": "Internet DATOS",
+        "description": "",
+        "amount": 4920,
+        "period": "MES",
+        "periodDays": 30,
+        "category": "Otros",
+        "isActive": true,
+        "createdAt": 1791551560950,
+        "inversionId": null,
+        "targetProductId": null,
+        "targetProductIds": null,
+        "startDate": null,
+        "endDate": null,
+        "scope": "PRODUCCION"
+      },
+      {
+        "id": 3,
+        "name": "NAUTA",
+        "description": "",
+        "amount": 500,
+        "period": "MES",
+        "periodDays": 30,
+        "category": "Otros",
+        "isActive": true,
+        "createdAt": 1791551373186,
         "inversionId": null,
         "targetProductId": null,
         "targetProductIds": null,
@@ -5496,12 +5530,12 @@
         "id": 1,
         "name": "Pagos fijos",
         "description": "",
-        "amount": 6000,
+        "amount": 8270,
         "period": "DÍA",
         "periodDays": 1,
         "category": "Personal",
         "isActive": true,
-        "createdAt": 1790062652424,
+        "createdAt": 1791551221551,
         "inversionId": null,
         "targetProductId": null,
         "targetProductIds": null,
@@ -5517,7 +5551,7 @@
         "category": "DUEÑO",
         "amount": 250000,
         "date": 1790047413513,
-        "usefulLife": 2,
+        "usefulLife": 1,
         "usefulLifeUnit": "AÑOS",
         "observation": "",
         "targetProductId": null,
@@ -5529,8 +5563,29 @@
         "originalAmount": 250000,
         "exchangeRate": 1,
         "convertedAmount": 250000,
-        "method": "VIDA_UTIL",
-        "dailyAmount": 0
+        "method": "RECUPERACION",
+        "dailyAmount": 694.4444444444445
+      },
+      {
+        "id": 3,
+        "name": "Compra exhibidor",
+        "category": "DUEÑO",
+        "amount": 702000,
+        "date": 1791551969968,
+        "usefulLife": 1,
+        "usefulLifeUnit": "AÑOS",
+        "observation": "",
+        "targetProductId": null,
+        "targetProductIds": null,
+        "startDate": null,
+        "endDate": null,
+        "scope": "PRODUCCION",
+        "currency": "USD",
+        "originalAmount": 900,
+        "exchangeRate": 780,
+        "convertedAmount": 702000,
+        "method": "RECUPERACION",
+        "dailyAmount": 1950
       }
     ]
   },
@@ -5578,6 +5633,15 @@
     "orderItems": [],
     "transferencias": [],
     "bitacoraEntries": [
+      {
+        "id": 133,
+        "title": "Archivado de Tandas y Unidades Pendientes",
+        "content": "Se archivaron 4 tandas. Registro de unidades pendientes:\nPizza Napolitana -> Pendientes: 56 Unidad | Familiar: 5 u",
+        "category": "PRODUCCIÓN",
+        "authorUsername": "alexis",
+        "timestamp": 1791386789497,
+        "priority": "NORMAL"
+      },
       {
         "id": 128,
         "title": "Mercadería Creada",
@@ -6812,6 +6876,264 @@
     ],
     "porJornada": [
       {
+        "jornadaId": 2,
+        "mercaderias": [
+          {
+            "mercaderiaId": 1,
+            "productId": 16,
+            "productName": "Refresco Gaseado",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 2,
+            "productId": 17,
+            "productName": "Néctar",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 3,
+            "productId": 18,
+            "productName": "Cerveza CRISTAL",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 4,
+            "productId": 19,
+            "productName": "Malta Guajira",
+            "inicio": "30.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 5,
+            "productId": 20,
+            "productName": "Doping",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 6,
+            "productId": 21,
+            "productName": "SHAKA",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 7,
+            "productId": 22,
+            "productName": "Cerveza PARRANDA",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 8,
+            "productId": 0,
+            "productName": "",
+            "inicio": "1.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 9,
+            "productId": 0,
+            "productName": "",
+            "inicio": "1.0",
+            "entradas": "0"
+          }
+        ]
+      },
+      {
+        "jornadaId": 11,
+        "mercaderias": [
+          {
+            "mercaderiaId": 1,
+            "productId": 16,
+            "productName": "Refresco Gaseado",
+            "inicio": "94",
+            "entradas": "120"
+          },
+          {
+            "mercaderiaId": 2,
+            "productId": 17,
+            "productName": "Néctar",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 3,
+            "productId": 18,
+            "productName": "Cerveza CRISTAL",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 4,
+            "productId": 19,
+            "productName": "Malta Guajira",
+            "inicio": "30.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 5,
+            "productId": 20,
+            "productName": "Doping",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 6,
+            "productId": 21,
+            "productName": "SHAKA",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 7,
+            "productId": 22,
+            "productName": "Cerveza PARRANDA",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 8,
+            "productId": 0,
+            "productName": "",
+            "inicio": "1.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 9,
+            "productId": 0,
+            "productName": "",
+            "inicio": "1.0",
+            "entradas": "0"
+          }
+        ]
+      },
+      {
+        "jornadaId": 3,
+        "mercaderias": [
+          {
+            "mercaderiaId": 1,
+            "productId": 16,
+            "productName": "Refresco Gaseado",
+            "inicio": "19",
+            "entradas": "144"
+          },
+          {
+            "mercaderiaId": 2,
+            "productId": 17,
+            "productName": "Néctar",
+            "inicio": "120",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 3,
+            "productId": 18,
+            "productName": "Cerveza CRISTAL",
+            "inicio": "120",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 5,
+            "productId": 20,
+            "productName": "Doping",
+            "inicio": "10",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 6,
+            "productId": 21,
+            "productName": "SHAKA",
+            "inicio": "28",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 10,
+            "productId": 26,
+            "productName": "Jugo Néctar",
+            "inicio": "120",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 11,
+            "productId": 27,
+            "productName": "Malta Guajira",
+            "inicio": "63",
+            "entradas": "0"
+          }
+        ]
+      },
+      {
+        "jornadaId": 12,
+        "mercaderias": [
+          {
+            "mercaderiaId": 1,
+            "productId": 16,
+            "productName": "Refresco Gaseado",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 2,
+            "productId": 17,
+            "productName": "Néctar",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 3,
+            "productId": 18,
+            "productName": "Cerveza CRISTAL",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 4,
+            "productId": 19,
+            "productName": "Malta Guajira",
+            "inicio": "30.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 5,
+            "productId": 20,
+            "productName": "Doping",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 6,
+            "productId": 21,
+            "productName": "SHAKA",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 7,
+            "productId": 22,
+            "productName": "Cerveza PARRANDA",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 8,
+            "productId": 0,
+            "productName": "",
+            "inicio": "1.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 9,
+            "productId": 0,
+            "productName": "",
+            "inicio": "1.0",
+            "entradas": "0"
+          }
+        ]
+      },
+      {
         "jornadaId": 1,
         "mercaderias": [
           {
@@ -6861,6 +7183,60 @@
             "productId": 28,
             "productName": "Cerveza BUCANERO",
             "inicio": "149",
+            "entradas": "0"
+          }
+        ]
+      },
+      {
+        "jornadaId": 4,
+        "mercaderias": [
+          {
+            "mercaderiaId": 1,
+            "productId": 16,
+            "productName": "Refresco Gaseado",
+            "inicio": "0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 2,
+            "productId": 17,
+            "productName": "Néctar",
+            "inicio": "0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 3,
+            "productId": 18,
+            "productName": "Cerveza CRISTAL",
+            "inicio": "0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 5,
+            "productId": 20,
+            "productName": "Doping",
+            "inicio": "0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 6,
+            "productId": 21,
+            "productName": "SHAKA",
+            "inicio": "0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 10,
+            "productId": 26,
+            "productName": "Jugo Néctar",
+            "inicio": "0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 11,
+            "productId": 27,
+            "productName": "Malta Guajira",
+            "inicio": "0",
             "entradas": "0"
           }
         ]
@@ -7021,7 +7397,7 @@
         "id": 2,
         "name": "Harina de trigo",
         "unit": "g",
-        "unitCost": 0.8777671302583558,
+        "unitCost": 0.9662242829200507,
         "isActive": true,
         "stock": 109769.23365999998,
         "initialStock": 146963.808,
@@ -7039,7 +7415,7 @@
         "purchaseMode": "POR LOTE",
         "purchaseLotUnits": 54,
         "purchaseLotQuantity": 6,
-        "purchaseLotPrice": 21500
+        "purchaseLotPrice": 23500
       },
       {
         "id": 7,
@@ -7141,11 +7517,11 @@
         "id": 14,
         "name": "Queso",
         "unit": "g",
-        "unitCost": 1.763699536147022,
+        "unitCost": 1.875694456692358,
         "isActive": true,
         "stock": 242494.96655584755,
         "initialStock": 283495,
-        "purchasePrice": 800,
+        "purchasePrice": 850,
         "purchaseUnit": "lb",
         "purchaseQuantity": 625,
         "productId": null,
@@ -7529,7 +7905,7 @@
         "id": 2,
         "name": "Harina de trigo",
         "unit": "g",
-        "unitCost": 0.8777671302583558,
+        "unitCost": 0.9662242829200507,
         "isActive": true,
         "stock": 109769.23365999998,
         "initialStock": 146963.808,
@@ -7547,7 +7923,7 @@
         "purchaseMode": "POR LOTE",
         "purchaseLotUnits": 54,
         "purchaseLotQuantity": 6,
-        "purchaseLotPrice": 21500
+        "purchaseLotPrice": 23500
       },
       {
         "id": 18,
@@ -7697,11 +8073,11 @@
         "id": 14,
         "name": "Queso",
         "unit": "g",
-        "unitCost": 1.763699536147022,
+        "unitCost": 1.875694456692358,
         "isActive": true,
         "stock": 242494.96655584755,
         "initialStock": 283495,
-        "purchasePrice": 800,
+        "purchasePrice": 850,
         "purchaseUnit": "lb",
         "purchaseQuantity": 625,
         "productId": null,
@@ -10566,10 +10942,10 @@
       {
         "id": 13,
         "code": "PF-C-0001",
-        "name": "Pizza Napolitana",
+        "name": "Pizza Napolitana Personal",
         "category": "Cocina",
         "price": 600,
-        "cost": 343.8086482752947,
+        "cost": 363.05967459461664,
         "stock": 10,
         "minStock": 3,
         "destination": "COCINA",
@@ -10580,7 +10956,7 @@
         "admitsAgregados": false,
         "agregadosList": "[]",
         "isConvertedToInsumo": false,
-        "presentacionesEspeciales": "[{\"id\":\"1\",\"name\":\"Familiar\",\"baseEquivalence\":5}]"
+        "presentacionesEspeciales": "[{\"id\":\"1\",\"name\":\"Pizza Napolitana Familiar\",\"baseEquivalence\":5,\"price\":0}]"
       },
       {
         "id": 15,
@@ -10607,7 +10983,7 @@
         "name": "Spaghetti",
         "category": "Cocina",
         "price": 650,
-        "cost": 335.03086643535664,
+        "cost": 510.69514254270575,
         "stock": 10,
         "minStock": 3,
         "destination": "COCINA",
@@ -10663,10 +11039,10 @@
       {
         "id": 13,
         "code": "PF-C-0001",
-        "name": "Pizza Napolitana",
+        "name": "Pizza Napolitana Personal",
         "category": "Cocina",
         "price": 600,
-        "cost": 343.8086482752947,
+        "cost": 363.05967459461664,
         "stock": 10,
         "minStock": 3,
         "destination": "COCINA",
@@ -10677,7 +11053,7 @@
         "admitsAgregados": false,
         "agregadosList": "[]",
         "isConvertedToInsumo": false,
-        "presentacionesEspeciales": "[{\"id\":\"1\",\"name\":\"Familiar\",\"baseEquivalence\":5}]"
+        "presentacionesEspeciales": "[{\"id\":\"1\",\"name\":\"Pizza Napolitana Familiar\",\"baseEquivalence\":5,\"price\":0}]"
       },
       {
         "id": 15,
@@ -10704,7 +11080,7 @@
         "name": "Spaghetti",
         "category": "Cocina",
         "price": 650,
-        "cost": 335.03086643535664,
+        "cost": 510.69514254270575,
         "stock": 10,
         "minStock": 3,
         "destination": "COCINA",
@@ -11069,19 +11445,19 @@
         "isActive": true,
         "recipeName": "Pizza Napolitana",
         "productionUnit": "Unidad",
-        "baseYield": 92,
+        "baseYield": 80,
         "baseMateriaPrimaId": 2,
         "baseQuantity": 9071.84,
-        "estimatedDailyQuantity": 250,
-        "ppd": 250,
+        "estimatedDailyQuantity": 200,
+        "ppd": 200,
         "precioDefinitivo": 600,
         "hasPrecioDefinitivo": true,
         "targetMarginPct": 30,
-        "pagoCocinaUnitario": 10,
+        "pagoCocinaUnitario": 20,
         "cantidadCocineros": 3,
         "isPagoCocinaFijo": false,
-        "pagoDependienteUnitario": 6,
-        "pagoCajeroUnitario": 6
+        "pagoDependienteUnitario": 15,
+        "pagoCajeroUnitario": 15
       },
       {
         "id": 2,
@@ -11109,19 +11485,19 @@
         "isActive": true,
         "recipeName": "",
         "productionUnit": "Unidad",
-        "baseYield": 13,
+        "baseYield": 10,
         "baseMateriaPrimaId": 19,
         "baseQuantity": 2,
-        "estimatedDailyQuantity": 50,
-        "ppd": 50,
+        "estimatedDailyQuantity": 30,
+        "ppd": 30,
         "precioDefinitivo": 650,
         "hasPrecioDefinitivo": true,
         "targetMarginPct": 30,
-        "pagoCocinaUnitario": 1500,
+        "pagoCocinaUnitario": 2000,
         "cantidadCocineros": 1,
         "isPagoCocinaFijo": true,
-        "pagoDependienteUnitario": 6.5,
-        "pagoCajeroUnitario": 6.5
+        "pagoDependienteUnitario": 10,
+        "pagoCajeroUnitario": 10
       }
     ],
     "recetaIngredientes": [
@@ -11262,7 +11638,7 @@
         "id": 25,
         "productoElaboradoId": 13,
         "materiaPrimaId": 3,
-        "quantity": 560,
+        "quantity": 272.1552,
         "unit": "g"
       }
     ],
@@ -11654,8 +12030,8 @@
   "tandas_bloque": {
     "titulo": "TANDAS",
     "totalTandas": 4,
-    "totalTandasJornada": 0,
-    "totalTandasCerradas": 4,
+    "totalTandasJornada": 4,
+    "totalTandasCerradas": 0,
     "tandas": [
       {
         "id": 32,
@@ -11672,10 +12048,10 @@
         "estimatedYield": 115.00009380676907,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 11339.81 g, Aceite: 625.00 ml, Levadura: 153.75 g, Sal: 156.25 g, Salsa para pizza: 6000.00 ml, Queso: 12500.01 g, Azúcar: 700.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.72 Unidad\/lb",
+        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.72 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -11694,9 +12070,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 42,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 21000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 4,
@@ -11717,10 +12093,10 @@
         "estimatedYield": 73.60006003633221,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 7257.48 g, Aceite: 400.00 ml, Levadura: 98.40 g, Sal: 100.00 g, Salsa para pizza: 3840.00 ml, Queso: 8000.01 g, Azúcar: 448.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 1 Familiar | Rendimiento: 4.19 Unidad\/lb",
+        "observation": "Pres. Especial: 1 Familiar | Rendimiento: 4.19 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -11739,9 +12115,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 62,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 31000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 1,
@@ -11762,10 +12138,10 @@
         "estimatedYield": 96.60007879768602,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 9525.44 g, Aceite: 525.00 ml, Levadura: 129.15 g, Sal: 131.25 g, Salsa para pizza: 5040.00 ml, Queso: 10500.01 g, Azúcar: 588.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Rendimiento: 4.86 Unidad\/lb",
+        "observation": "Rendimiento: 4.86 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -11784,9 +12160,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 102,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 51000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "",
         "specialPresentationQty": 0,
@@ -11807,10 +12183,10 @@
         "estimatedYield": 85.00006933543803,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 9071.85 g, Aceite: 500.00 ml, Levadura: 123.00 g, Sal: 125.00 g, Salsa para pizza: 4800.00 ml, Queso: 10000.01 g, Azúcar: 560.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.90 Unidad\/lb",
+        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.90 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -11829,17 +12205,16 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 78,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 39000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 4,
         "specialPresentationEquivalence": 5
       }
     ],
-    "tandasJornada": [],
-    "tandasCerradas": [
+    "tandasJornada": [
       {
         "id": 32,
         "uuid": "TANDA-04-1791343662041",
@@ -11855,10 +12230,10 @@
         "estimatedYield": 115.00009380676907,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 11339.81 g, Aceite: 625.00 ml, Levadura: 153.75 g, Sal: 156.25 g, Salsa para pizza: 6000.00 ml, Queso: 12500.01 g, Azúcar: 700.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.72 Unidad\/lb",
+        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.72 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -11877,9 +12252,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 42,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 21000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 4,
@@ -11900,10 +12275,10 @@
         "estimatedYield": 73.60006003633221,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 7257.48 g, Aceite: 400.00 ml, Levadura: 98.40 g, Sal: 100.00 g, Salsa para pizza: 3840.00 ml, Queso: 8000.01 g, Azúcar: 448.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 1 Familiar | Rendimiento: 4.19 Unidad\/lb",
+        "observation": "Pres. Especial: 1 Familiar | Rendimiento: 4.19 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -11922,9 +12297,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 62,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 31000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 1,
@@ -11945,10 +12320,10 @@
         "estimatedYield": 96.60007879768602,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 9525.44 g, Aceite: 525.00 ml, Levadura: 129.15 g, Sal: 131.25 g, Salsa para pizza: 5040.00 ml, Queso: 10500.01 g, Azúcar: 588.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Rendimiento: 4.86 Unidad\/lb",
+        "observation": "Rendimiento: 4.86 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -11967,9 +12342,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 102,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 51000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "",
         "specialPresentationQty": 0,
@@ -11990,10 +12365,10 @@
         "estimatedYield": 85.00006933543803,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 9071.85 g, Aceite: 500.00 ml, Levadura: 123.00 g, Sal: 125.00 g, Salsa para pizza: 4800.00 ml, Queso: 10000.01 g, Azúcar: 560.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.90 Unidad\/lb",
+        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.90 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -12012,15 +12387,16 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 78,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 39000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 4,
         "specialPresentationEquivalence": 5
       }
     ],
+    "tandasCerradas": [],
     "archivoTandas": [
       {
         "id": 32,
@@ -12037,10 +12413,10 @@
         "estimatedYield": 115.00009380676907,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 11339.81 g, Aceite: 625.00 ml, Levadura: 153.75 g, Sal: 156.25 g, Salsa para pizza: 6000.00 ml, Queso: 12500.01 g, Azúcar: 700.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.72 Unidad\/lb",
+        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.72 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -12059,9 +12435,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 42,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 21000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 4,
@@ -12082,10 +12458,10 @@
         "estimatedYield": 73.60006003633221,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 7257.48 g, Aceite: 400.00 ml, Levadura: 98.40 g, Sal: 100.00 g, Salsa para pizza: 3840.00 ml, Queso: 8000.01 g, Azúcar: 448.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 1 Familiar | Rendimiento: 4.19 Unidad\/lb",
+        "observation": "Pres. Especial: 1 Familiar | Rendimiento: 4.19 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -12104,9 +12480,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 62,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 31000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 1,
@@ -12127,10 +12503,10 @@
         "estimatedYield": 96.60007879768602,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 9525.44 g, Aceite: 525.00 ml, Levadura: 129.15 g, Sal: 131.25 g, Salsa para pizza: 5040.00 ml, Queso: 10500.01 g, Azúcar: 588.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Rendimiento: 4.86 Unidad\/lb",
+        "observation": "Rendimiento: 4.86 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -12149,9 +12525,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 102,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 51000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "",
         "specialPresentationQty": 0,
@@ -12172,10 +12548,10 @@
         "estimatedYield": 85.00006933543803,
         "productionUnit": "Unidad",
         "ingredientsConsumedText": "Harina de trigo: 9071.85 g, Aceite: 500.00 ml, Levadura: 123.00 g, Sal: 125.00 g, Salsa para pizza: 4800.00 ml, Queso: 10000.01 g, Azúcar: 560.00 g",
-        "status": "CERRADA",
+        "status": "ARCHIVADA",
         "jornada": "Jornada #1",
         "jornadaId": 1,
-        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.90 Unidad\/lb",
+        "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.90 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
         "laborCostType": "NINGUNO",
         "laborCostValue": 0,
         "totalLaborCost": 0,
@@ -12194,9 +12570,9 @@
         "ownerPayType": "NINGUNO",
         "ownerPayValue": 0,
         "totalOwnerPay": 0,
-        "quantitySold": 0,
+        "quantitySold": 78,
         "salePrice": 500,
-        "realRevenue": 0,
+        "realRevenue": 39000,
         "deviceId": "DISPOSITIVO-LOCAL",
         "specialPresentationName": "Familiar",
         "specialPresentationQty": 4,
@@ -12215,7 +12591,7 @@
       "codigoNegocio": "001",
       "logoPath": null,
       "fechaCreacion": 1790131879377,
-      "fechaActualizacion": 1790132226553
+      "fechaActualizacion": 1791345907639
     },
     "configuracionGeneral": {
       "id": 1,
@@ -12223,7 +12599,7 @@
       "metodosPago": "Efectivo",
       "parametrosJornada": "Apertura automatica:falso,Obligatorio notas de cierre:verdadero",
       "denominacionesCaja": "1000,500,200,100,50,20,10",
-      "tasaUsd": 780,
+      "tasaUsd": 770,
       "tasaEur": 850,
       "telefonoDueno": "",
       "telefonoCajero": "",
@@ -12283,7 +12659,7 @@
     "personalContratado": [
       {
         "id": 1,
-        "nombreCompleto": "Alexis",
+        "nombreCompleto": "Alexis Alejandro Tito Cabrera",
         "carnetIdentidad": "",
         "movil": "55685651",
         "formaPago": "Fijo",
@@ -12320,7 +12696,7 @@
       },
       {
         "username": "alexis",
-        "fullName": "Alexis",
+        "fullName": "Alexis Alejandro Tito Cabrera",
         "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
         "role": "DUENO",
         "montoPorProducto": 0,
@@ -12340,12 +12716,46 @@
         "id": 2,
         "name": "Electricidad",
         "description": "",
-        "amount": 5000,
+        "amount": 2500,
         "period": "MES",
         "periodDays": 30,
         "category": "Electricidad",
         "isActive": true,
-        "createdAt": 1790728644046,
+        "createdAt": 1791482068292,
+        "inversionId": null,
+        "targetProductId": null,
+        "targetProductIds": null,
+        "startDate": null,
+        "endDate": null,
+        "scope": "PRODUCCION"
+      },
+      {
+        "id": 4,
+        "name": "Internet DATOS",
+        "description": "",
+        "amount": 4920,
+        "period": "MES",
+        "periodDays": 30,
+        "category": "Otros",
+        "isActive": true,
+        "createdAt": 1791551560950,
+        "inversionId": null,
+        "targetProductId": null,
+        "targetProductIds": null,
+        "startDate": null,
+        "endDate": null,
+        "scope": "PRODUCCION"
+      },
+      {
+        "id": 3,
+        "name": "NAUTA",
+        "description": "",
+        "amount": 500,
+        "period": "MES",
+        "periodDays": 30,
+        "category": "Otros",
+        "isActive": true,
+        "createdAt": 1791551373186,
         "inversionId": null,
         "targetProductId": null,
         "targetProductIds": null,
@@ -12357,12 +12767,12 @@
         "id": 1,
         "name": "Pagos fijos",
         "description": "",
-        "amount": 6000,
+        "amount": 8270,
         "period": "DÍA",
         "periodDays": 1,
         "category": "Personal",
         "isActive": true,
-        "createdAt": 1790062652424,
+        "createdAt": 1791551221551,
         "inversionId": null,
         "targetProductId": null,
         "targetProductIds": null,
@@ -12378,7 +12788,7 @@
         "category": "DUEÑO",
         "amount": 250000,
         "date": 1790047413513,
-        "usefulLife": 2,
+        "usefulLife": 1,
         "usefulLifeUnit": "AÑOS",
         "observation": "",
         "targetProductId": null,
@@ -12390,8 +12800,29 @@
         "originalAmount": 250000,
         "exchangeRate": 1,
         "convertedAmount": 250000,
-        "method": "VIDA_UTIL",
-        "dailyAmount": 0
+        "method": "RECUPERACION",
+        "dailyAmount": 694.4444444444445
+      },
+      {
+        "id": 3,
+        "name": "Compra exhibidor",
+        "category": "DUEÑO",
+        "amount": 702000,
+        "date": 1791551969968,
+        "usefulLife": 1,
+        "usefulLifeUnit": "AÑOS",
+        "observation": "",
+        "targetProductId": null,
+        "targetProductIds": null,
+        "startDate": null,
+        "endDate": null,
+        "scope": "PRODUCCION",
+        "currency": "USD",
+        "originalAmount": 900,
+        "exchangeRate": 780,
+        "convertedAmount": 702000,
+        "method": "RECUPERACION",
+        "dailyAmount": 1950
       }
     ]
   },
@@ -12439,6 +12870,15 @@
     "orderItems": [],
     "transferencias": [],
     "bitacoraEntries": [
+      {
+        "id": 133,
+        "title": "Archivado de Tandas y Unidades Pendientes",
+        "content": "Se archivaron 4 tandas. Registro de unidades pendientes:\nPizza Napolitana -> Pendientes: 56 Unidad | Familiar: 5 u",
+        "category": "PRODUCCIÓN",
+        "authorUsername": "alexis",
+        "timestamp": 1791386789497,
+        "priority": "NORMAL"
+      },
       {
         "id": 128,
         "title": "Mercadería Creada",
@@ -13673,6 +14113,264 @@
     ],
     "porJornada": [
       {
+        "jornadaId": 2,
+        "mercaderias": [
+          {
+            "mercaderiaId": 1,
+            "productId": 16,
+            "productName": "Refresco Gaseado",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 2,
+            "productId": 17,
+            "productName": "Néctar",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 3,
+            "productId": 18,
+            "productName": "Cerveza CRISTAL",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 4,
+            "productId": 19,
+            "productName": "Malta Guajira",
+            "inicio": "30.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 5,
+            "productId": 20,
+            "productName": "Doping",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 6,
+            "productId": 21,
+            "productName": "SHAKA",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 7,
+            "productId": 22,
+            "productName": "Cerveza PARRANDA",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 8,
+            "productId": 0,
+            "productName": "",
+            "inicio": "1.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 9,
+            "productId": 0,
+            "productName": "",
+            "inicio": "1.0",
+            "entradas": "0"
+          }
+        ]
+      },
+      {
+        "jornadaId": 11,
+        "mercaderias": [
+          {
+            "mercaderiaId": 1,
+            "productId": 16,
+            "productName": "Refresco Gaseado",
+            "inicio": "94",
+            "entradas": "120"
+          },
+          {
+            "mercaderiaId": 2,
+            "productId": 17,
+            "productName": "Néctar",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 3,
+            "productId": 18,
+            "productName": "Cerveza CRISTAL",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 4,
+            "productId": 19,
+            "productName": "Malta Guajira",
+            "inicio": "30.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 5,
+            "productId": 20,
+            "productName": "Doping",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 6,
+            "productId": 21,
+            "productName": "SHAKA",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 7,
+            "productId": 22,
+            "productName": "Cerveza PARRANDA",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 8,
+            "productId": 0,
+            "productName": "",
+            "inicio": "1.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 9,
+            "productId": 0,
+            "productName": "",
+            "inicio": "1.0",
+            "entradas": "0"
+          }
+        ]
+      },
+      {
+        "jornadaId": 3,
+        "mercaderias": [
+          {
+            "mercaderiaId": 1,
+            "productId": 16,
+            "productName": "Refresco Gaseado",
+            "inicio": "19",
+            "entradas": "144"
+          },
+          {
+            "mercaderiaId": 2,
+            "productId": 17,
+            "productName": "Néctar",
+            "inicio": "120",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 3,
+            "productId": 18,
+            "productName": "Cerveza CRISTAL",
+            "inicio": "120",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 5,
+            "productId": 20,
+            "productName": "Doping",
+            "inicio": "10",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 6,
+            "productId": 21,
+            "productName": "SHAKA",
+            "inicio": "28",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 10,
+            "productId": 26,
+            "productName": "Jugo Néctar",
+            "inicio": "120",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 11,
+            "productId": 27,
+            "productName": "Malta Guajira",
+            "inicio": "63",
+            "entradas": "0"
+          }
+        ]
+      },
+      {
+        "jornadaId": 12,
+        "mercaderias": [
+          {
+            "mercaderiaId": 1,
+            "productId": 16,
+            "productName": "Refresco Gaseado",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 2,
+            "productId": 17,
+            "productName": "Néctar",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 3,
+            "productId": 18,
+            "productName": "Cerveza CRISTAL",
+            "inicio": "120.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 4,
+            "productId": 19,
+            "productName": "Malta Guajira",
+            "inicio": "30.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 5,
+            "productId": 20,
+            "productName": "Doping",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 6,
+            "productId": 21,
+            "productName": "SHAKA",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 7,
+            "productId": 22,
+            "productName": "Cerveza PARRANDA",
+            "inicio": "60.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 8,
+            "productId": 0,
+            "productName": "",
+            "inicio": "1.0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 9,
+            "productId": 0,
+            "productName": "",
+            "inicio": "1.0",
+            "entradas": "0"
+          }
+        ]
+      },
+      {
         "jornadaId": 1,
         "mercaderias": [
           {
@@ -13725,6 +14423,60 @@
             "entradas": "0"
           }
         ]
+      },
+      {
+        "jornadaId": 4,
+        "mercaderias": [
+          {
+            "mercaderiaId": 1,
+            "productId": 16,
+            "productName": "Refresco Gaseado",
+            "inicio": "0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 2,
+            "productId": 17,
+            "productName": "Néctar",
+            "inicio": "0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 3,
+            "productId": 18,
+            "productName": "Cerveza CRISTAL",
+            "inicio": "0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 5,
+            "productId": 20,
+            "productName": "Doping",
+            "inicio": "0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 6,
+            "productId": 21,
+            "productName": "SHAKA",
+            "inicio": "0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 10,
+            "productId": 26,
+            "productName": "Jugo Néctar",
+            "inicio": "0",
+            "entradas": "0"
+          },
+          {
+            "mercaderiaId": 11,
+            "productId": 27,
+            "productName": "Malta Guajira",
+            "inicio": "0",
+            "entradas": "0"
+          }
+        ]
       }
     ]
   },
@@ -13736,7 +14488,7 @@
     "codigoNegocio": "001",
     "logoPath": null,
     "fechaCreacion": 1790131879377,
-    "fechaActualizacion": 1790132226553
+    "fechaActualizacion": 1791345907639
   },
   "configuracionGeneral": {
     "id": 1,
@@ -13744,7 +14496,7 @@
     "metodosPago": "Efectivo",
     "parametrosJornada": "Apertura automatica:falso,Obligatorio notas de cierre:verdadero",
     "denominacionesCaja": "1000,500,200,100,50,20,10",
-    "tasaUsd": 780,
+    "tasaUsd": 770,
     "tasaEur": 850,
     "telefonoDueno": "",
     "telefonoCajero": "",
@@ -13941,7 +14693,7 @@
       "id": 2,
       "name": "Harina de trigo",
       "unit": "g",
-      "unitCost": 0.8777671302583558,
+      "unitCost": 0.9662242829200507,
       "isActive": true,
       "stock": 109769.23365999998,
       "initialStock": 146963.808,
@@ -13959,7 +14711,7 @@
       "purchaseMode": "POR LOTE",
       "purchaseLotUnits": 54,
       "purchaseLotQuantity": 6,
-      "purchaseLotPrice": 21500
+      "purchaseLotPrice": 23500
     },
     {
       "id": 18,
@@ -14109,11 +14861,11 @@
       "id": 14,
       "name": "Queso",
       "unit": "g",
-      "unitCost": 1.763699536147022,
+      "unitCost": 1.875694456692358,
       "isActive": true,
       "stock": 242494.96655584755,
       "initialStock": 283495,
-      "purchasePrice": 800,
+      "purchasePrice": 850,
       "purchaseUnit": "lb",
       "purchaseQuantity": 625,
       "productId": null,
@@ -14558,10 +15310,10 @@
     {
       "id": 13,
       "code": "PF-C-0001",
-      "name": "Pizza Napolitana",
+      "name": "Pizza Napolitana Personal",
       "category": "Cocina",
       "price": 600,
-      "cost": 343.8086482752947,
+      "cost": 363.05967459461664,
       "stock": 10,
       "minStock": 3,
       "destination": "COCINA",
@@ -14572,7 +15324,7 @@
       "admitsAgregados": false,
       "agregadosList": "[]",
       "isConvertedToInsumo": false,
-      "presentacionesEspeciales": "[{\"id\":\"1\",\"name\":\"Familiar\",\"baseEquivalence\":5}]"
+      "presentacionesEspeciales": "[{\"id\":\"1\",\"name\":\"Pizza Napolitana Familiar\",\"baseEquivalence\":5,\"price\":0}]"
     },
     {
       "id": 15,
@@ -14599,7 +15351,7 @@
       "name": "Spaghetti",
       "category": "Cocina",
       "price": 650,
-      "cost": 335.03086643535664,
+      "cost": 510.69514254270575,
       "stock": 10,
       "minStock": 3,
       "destination": "COCINA",
@@ -14658,19 +15410,19 @@
       "isActive": true,
       "recipeName": "Pizza Napolitana",
       "productionUnit": "Unidad",
-      "baseYield": 92,
+      "baseYield": 80,
       "baseMateriaPrimaId": 2,
       "baseQuantity": 9071.84,
-      "estimatedDailyQuantity": 250,
-      "ppd": 250,
+      "estimatedDailyQuantity": 200,
+      "ppd": 200,
       "precioDefinitivo": 600,
       "hasPrecioDefinitivo": true,
       "targetMarginPct": 30,
-      "pagoCocinaUnitario": 10,
+      "pagoCocinaUnitario": 20,
       "cantidadCocineros": 3,
       "isPagoCocinaFijo": false,
-      "pagoDependienteUnitario": 6,
-      "pagoCajeroUnitario": 6
+      "pagoDependienteUnitario": 15,
+      "pagoCajeroUnitario": 15
     },
     {
       "id": 2,
@@ -14698,19 +15450,19 @@
       "isActive": true,
       "recipeName": "",
       "productionUnit": "Unidad",
-      "baseYield": 13,
+      "baseYield": 10,
       "baseMateriaPrimaId": 19,
       "baseQuantity": 2,
-      "estimatedDailyQuantity": 50,
-      "ppd": 50,
+      "estimatedDailyQuantity": 30,
+      "ppd": 30,
       "precioDefinitivo": 650,
       "hasPrecioDefinitivo": true,
       "targetMarginPct": 30,
-      "pagoCocinaUnitario": 1500,
+      "pagoCocinaUnitario": 2000,
       "cantidadCocineros": 1,
       "isPagoCocinaFijo": true,
-      "pagoDependienteUnitario": 6.5,
-      "pagoCajeroUnitario": 6.5
+      "pagoDependienteUnitario": 10,
+      "pagoCajeroUnitario": 10
     }
   ],
   "recetaIngredientes": [
@@ -14851,7 +15603,7 @@
       "id": 25,
       "productoElaboradoId": 13,
       "materiaPrimaId": 3,
-      "quantity": 560,
+      "quantity": 272.1552,
       "unit": "g"
     }
   ],
@@ -14871,10 +15623,10 @@
       "estimatedYield": 115.00009380676907,
       "productionUnit": "Unidad",
       "ingredientsConsumedText": "Harina de trigo: 11339.81 g, Aceite: 625.00 ml, Levadura: 153.75 g, Sal: 156.25 g, Salsa para pizza: 6000.00 ml, Queso: 12500.01 g, Azúcar: 700.00 g",
-      "status": "CERRADA",
+      "status": "ARCHIVADA",
       "jornada": "Jornada #1",
       "jornadaId": 1,
-      "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.72 Unidad\/lb",
+      "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.72 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
       "laborCostType": "NINGUNO",
       "laborCostValue": 0,
       "totalLaborCost": 0,
@@ -14893,9 +15645,9 @@
       "ownerPayType": "NINGUNO",
       "ownerPayValue": 0,
       "totalOwnerPay": 0,
-      "quantitySold": 0,
+      "quantitySold": 42,
       "salePrice": 500,
-      "realRevenue": 0,
+      "realRevenue": 21000,
       "deviceId": "DISPOSITIVO-LOCAL",
       "specialPresentationName": "Familiar",
       "specialPresentationQty": 4,
@@ -14916,10 +15668,10 @@
       "estimatedYield": 73.60006003633221,
       "productionUnit": "Unidad",
       "ingredientsConsumedText": "Harina de trigo: 7257.48 g, Aceite: 400.00 ml, Levadura: 98.40 g, Sal: 100.00 g, Salsa para pizza: 3840.00 ml, Queso: 8000.01 g, Azúcar: 448.00 g",
-      "status": "CERRADA",
+      "status": "ARCHIVADA",
       "jornada": "Jornada #1",
       "jornadaId": 1,
-      "observation": "Pres. Especial: 1 Familiar | Rendimiento: 4.19 Unidad\/lb",
+      "observation": "Pres. Especial: 1 Familiar | Rendimiento: 4.19 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
       "laborCostType": "NINGUNO",
       "laborCostValue": 0,
       "totalLaborCost": 0,
@@ -14938,9 +15690,9 @@
       "ownerPayType": "NINGUNO",
       "ownerPayValue": 0,
       "totalOwnerPay": 0,
-      "quantitySold": 0,
+      "quantitySold": 62,
       "salePrice": 500,
-      "realRevenue": 0,
+      "realRevenue": 31000,
       "deviceId": "DISPOSITIVO-LOCAL",
       "specialPresentationName": "Familiar",
       "specialPresentationQty": 1,
@@ -14961,10 +15713,10 @@
       "estimatedYield": 96.60007879768602,
       "productionUnit": "Unidad",
       "ingredientsConsumedText": "Harina de trigo: 9525.44 g, Aceite: 525.00 ml, Levadura: 129.15 g, Sal: 131.25 g, Salsa para pizza: 5040.00 ml, Queso: 10500.01 g, Azúcar: 588.00 g",
-      "status": "CERRADA",
+      "status": "ARCHIVADA",
       "jornada": "Jornada #1",
       "jornadaId": 1,
-      "observation": "Rendimiento: 4.86 Unidad\/lb",
+      "observation": "Rendimiento: 4.86 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
       "laborCostType": "NINGUNO",
       "laborCostValue": 0,
       "totalLaborCost": 0,
@@ -14983,9 +15735,9 @@
       "ownerPayType": "NINGUNO",
       "ownerPayValue": 0,
       "totalOwnerPay": 0,
-      "quantitySold": 0,
+      "quantitySold": 102,
       "salePrice": 500,
-      "realRevenue": 0,
+      "realRevenue": 51000,
       "deviceId": "DISPOSITIVO-LOCAL",
       "specialPresentationName": "",
       "specialPresentationQty": 0,
@@ -15006,10 +15758,10 @@
       "estimatedYield": 85.00006933543803,
       "productionUnit": "Unidad",
       "ingredientsConsumedText": "Harina de trigo: 9071.85 g, Aceite: 500.00 ml, Levadura: 123.00 g, Sal: 125.00 g, Salsa para pizza: 4800.00 ml, Queso: 10000.01 g, Azúcar: 560.00 g",
-      "status": "CERRADA",
+      "status": "ARCHIVADA",
       "jornada": "Jornada #1",
       "jornadaId": 1,
-      "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.90 Unidad\/lb",
+      "observation": "Pres. Especial: 4 Familiar | Rendimiento: 4.90 Unidad\/lb | Pendientes: 56 Unidad | Familiar: 5 u",
       "laborCostType": "NINGUNO",
       "laborCostValue": 0,
       "totalLaborCost": 0,
@@ -15028,9 +15780,9 @@
       "ownerPayType": "NINGUNO",
       "ownerPayValue": 0,
       "totalOwnerPay": 0,
-      "quantitySold": 0,
+      "quantitySold": 78,
       "salePrice": 500,
-      "realRevenue": 0,
+      "realRevenue": 39000,
       "deviceId": "DISPOSITIVO-LOCAL",
       "specialPresentationName": "Familiar",
       "specialPresentationQty": 4,
@@ -17839,7 +18591,7 @@
   "personalContratado": [
     {
       "id": 1,
-      "nombreCompleto": "Alexis",
+      "nombreCompleto": "Alexis Alejandro Tito Cabrera",
       "carnetIdentidad": "",
       "movil": "55685651",
       "formaPago": "Fijo",
@@ -17876,7 +18628,7 @@
     },
     {
       "username": "alexis",
-      "fullName": "Alexis",
+      "fullName": "Alexis Alejandro Tito Cabrera",
       "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
       "role": "DUENO",
       "montoPorProducto": 0,
@@ -17895,12 +18647,46 @@
       "id": 2,
       "name": "Electricidad",
       "description": "",
-      "amount": 5000,
+      "amount": 2500,
       "period": "MES",
       "periodDays": 30,
       "category": "Electricidad",
       "isActive": true,
-      "createdAt": 1790728644046,
+      "createdAt": 1791482068292,
+      "inversionId": null,
+      "targetProductId": null,
+      "targetProductIds": null,
+      "startDate": null,
+      "endDate": null,
+      "scope": "PRODUCCION"
+    },
+    {
+      "id": 4,
+      "name": "Internet DATOS",
+      "description": "",
+      "amount": 4920,
+      "period": "MES",
+      "periodDays": 30,
+      "category": "Otros",
+      "isActive": true,
+      "createdAt": 1791551560950,
+      "inversionId": null,
+      "targetProductId": null,
+      "targetProductIds": null,
+      "startDate": null,
+      "endDate": null,
+      "scope": "PRODUCCION"
+    },
+    {
+      "id": 3,
+      "name": "NAUTA",
+      "description": "",
+      "amount": 500,
+      "period": "MES",
+      "periodDays": 30,
+      "category": "Otros",
+      "isActive": true,
+      "createdAt": 1791551373186,
       "inversionId": null,
       "targetProductId": null,
       "targetProductIds": null,
@@ -17912,12 +18698,12 @@
       "id": 1,
       "name": "Pagos fijos",
       "description": "",
-      "amount": 6000,
+      "amount": 8270,
       "period": "DÍA",
       "periodDays": 1,
       "category": "Personal",
       "isActive": true,
-      "createdAt": 1790062652424,
+      "createdAt": 1791551221551,
       "inversionId": null,
       "targetProductId": null,
       "targetProductIds": null,
@@ -17933,7 +18719,7 @@
       "category": "DUEÑO",
       "amount": 250000,
       "date": 1790047413513,
-      "usefulLife": 2,
+      "usefulLife": 1,
       "usefulLifeUnit": "AÑOS",
       "observation": "",
       "targetProductId": null,
@@ -17945,8 +18731,29 @@
       "originalAmount": 250000,
       "exchangeRate": 1,
       "convertedAmount": 250000,
-      "method": "VIDA_UTIL",
-      "dailyAmount": 0
+      "method": "RECUPERACION",
+      "dailyAmount": 694.4444444444445
+    },
+    {
+      "id": 3,
+      "name": "Compra exhibidor",
+      "category": "DUEÑO",
+      "amount": 702000,
+      "date": 1791551969968,
+      "usefulLife": 1,
+      "usefulLifeUnit": "AÑOS",
+      "observation": "",
+      "targetProductId": null,
+      "targetProductIds": null,
+      "startDate": null,
+      "endDate": null,
+      "scope": "PRODUCCION",
+      "currency": "USD",
+      "originalAmount": 900,
+      "exchangeRate": 780,
+      "convertedAmount": 702000,
+      "method": "RECUPERACION",
+      "dailyAmount": 1950
     }
   ],
   "jornadas": [
@@ -17991,6 +18798,15 @@
   "orderItems": [],
   "transferencias": [],
   "bitacoraEntries": [
+    {
+      "id": 133,
+      "title": "Archivado de Tandas y Unidades Pendientes",
+      "content": "Se archivaron 4 tandas. Registro de unidades pendientes:\nPizza Napolitana -> Pendientes: 56 Unidad | Familiar: 5 u",
+      "category": "PRODUCCIÓN",
+      "authorUsername": "alexis",
+      "timestamp": 1791386789497,
+      "priority": "NORMAL"
+    },
     {
       "id": 128,
       "title": "Mercadería Creada",
