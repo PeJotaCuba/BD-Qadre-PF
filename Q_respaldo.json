@@ -3,7 +3,7 @@
   "formatIdentifier": "ELQADRE_FULL_BUSINESS_BACKUP",
   "nombre_archivo": "Q_respaldo.json",
   "version": 2,
-  "timestamp": 1791574724978,
+  "timestamp": 1791829939656,
   "codigoNegocio": "001",
   "nombreNegocio": "Pizzas Factory",
   "bloque_1_insumos_y_agregados": {
@@ -430,14 +430,14 @@
         "isActive": true,
         "stock": 9071.84,
         "initialStock": 9071.84,
-        "purchasePrice": 0,
+        "purchasePrice": 2300,
         "purchaseUnit": "kg",
         "purchaseQuantity": 1,
         "productId": null,
         "isAgregado": true,
         "rationQuantity": 35,
         "rationUnit": "g",
-        "suggestedPrice": 115.00000000000001,
+        "suggestedPrice": 304.1691751685434,
         "salePrice": 300,
         "stockEnVenta": 0,
         "racionesEnVenta": 0,
@@ -450,18 +450,18 @@
         "id": 18,
         "name": "Jamón",
         "unit": "g",
-        "unitCost": 2.4,
+        "unitCost": 363.05967459461664,
         "isActive": true,
         "stock": 900.5,
         "initialStock": 900.5,
         "purchasePrice": 2300,
         "purchaseUnit": "kg",
-        "purchaseQuantity": 5,
+        "purchaseQuantity": 1,
         "productId": 13,
         "isAgregado": true,
-        "rationQuantity": 40,
+        "rationQuantity": 50,
         "rationUnit": "g",
-        "suggestedPrice": 137.14285714285714,
+        "suggestedPrice": 405.93370389960353,
         "salePrice": 400,
         "stockEnVenta": 0,
         "racionesEnVenta": 0,
@@ -474,18 +474,18 @@
         "id": 21,
         "name": "Pimiento",
         "unit": "g",
-        "unitCost": 2.2266706643856153,
+        "unitCost": 2.2046226218487757,
         "isActive": true,
         "stock": 9071.84,
         "initialStock": 9071.84,
         "purchasePrice": 1000,
         "purchaseUnit": "lb",
-        "purchaseQuantity": 20,
+        "purchaseQuantity": 1,
         "productId": null,
         "isAgregado": true,
         "rationQuantity": 40,
         "rationUnit": "g",
-        "suggestedPrice": 127.23832367917802,
+        "suggestedPrice": 316.43993376048354,
         "salePrice": 300,
         "stockEnVenta": 0,
         "racionesEnVenta": 0,
@@ -576,14 +576,14 @@
         "isActive": true,
         "stock": 9071.84,
         "initialStock": 9071.84,
-        "purchasePrice": 0,
+        "purchasePrice": 2300,
         "purchaseUnit": "kg",
         "purchaseQuantity": 1,
         "productId": null,
         "isAgregado": true,
         "rationQuantity": 35,
         "rationUnit": "g",
-        "suggestedPrice": 115.00000000000001,
+        "suggestedPrice": 304.1691751685434,
         "salePrice": 300,
         "stockEnVenta": 0,
         "racionesEnVenta": 0,
@@ -692,18 +692,18 @@
         "id": 18,
         "name": "Jamón",
         "unit": "g",
-        "unitCost": 2.4,
+        "unitCost": 363.05967459461664,
         "isActive": true,
         "stock": 900.5,
         "initialStock": 900.5,
         "purchasePrice": 2300,
         "purchaseUnit": "kg",
-        "purchaseQuantity": 5,
+        "purchaseQuantity": 1,
         "productId": 13,
         "isAgregado": true,
-        "rationQuantity": 40,
+        "rationQuantity": 50,
         "rationUnit": "g",
-        "suggestedPrice": 137.14285714285714,
+        "suggestedPrice": 405.93370389960353,
         "salePrice": 400,
         "stockEnVenta": 0,
         "racionesEnVenta": 0,
@@ -764,18 +764,18 @@
         "id": 21,
         "name": "Pimiento",
         "unit": "g",
-        "unitCost": 2.2266706643856153,
+        "unitCost": 2.2046226218487757,
         "isActive": true,
         "stock": 9071.84,
         "initialStock": 9071.84,
         "purchasePrice": 1000,
         "purchaseUnit": "lb",
-        "purchaseQuantity": 20,
+        "purchaseQuantity": 1,
         "productId": null,
         "isAgregado": true,
         "rationQuantity": 40,
         "rationUnit": "g",
-        "suggestedPrice": 127.23832367917802,
+        "suggestedPrice": 316.43993376048354,
         "salePrice": 300,
         "stockEnVenta": 0,
         "racionesEnVenta": 0,
@@ -3394,8 +3394,8 @@
   },
   "bloque_2_productos": {
     "titulo": "PRODUCTOS",
-    "totalProductos": 21,
-    "totalProductosProduccion": 3,
+    "totalProductos": 22,
+    "totalProductosProduccion": 4,
     "totalProductosMercaderias": 18,
     "products": [
       {
@@ -3703,6 +3703,25 @@
         "presentacionesEspeciales": "[]"
       },
       {
+        "id": 29,
+        "code": "PF-C-0004",
+        "name": "Pizza Napolitana Familiar",
+        "category": "Cocina",
+        "price": 3000,
+        "cost": 1815.2983729730827,
+        "stock": 10,
+        "minStock": 3,
+        "destination": "COCINA",
+        "isAvailable": true,
+        "description": "Presentación especial (5.0x) de Pizza Napolitana Personal",
+        "unitOfMeasure": "Unidad",
+        "imagePath": null,
+        "admitsAgregados": false,
+        "agregadosList": "[]",
+        "isConvertedToInsumo": false,
+        "presentacionesEspeciales": "[]"
+      },
+      {
         "id": 13,
         "code": "PF-C-0001",
         "name": "Pizza Napolitana Personal",
@@ -3799,6 +3818,25 @@
       }
     ],
     "productosProduccion": [
+      {
+        "id": 29,
+        "code": "PF-C-0004",
+        "name": "Pizza Napolitana Familiar",
+        "category": "Cocina",
+        "price": 3000,
+        "cost": 1815.2983729730827,
+        "stock": 10,
+        "minStock": 3,
+        "destination": "COCINA",
+        "isAvailable": true,
+        "description": "Presentación especial (5.0x) de Pizza Napolitana Personal",
+        "unitOfMeasure": "Unidad",
+        "imagePath": null,
+        "admitsAgregados": false,
+        "agregadosList": "[]",
+        "isConvertedToInsumo": false,
+        "presentacionesEspeciales": "[]"
+      },
       {
         "id": 13,
         "code": "PF-C-0001",
@@ -4261,6 +4299,26 @@
         "isPagoCocinaFijo": true,
         "pagoDependienteUnitario": 10,
         "pagoCajeroUnitario": 10
+      },
+      {
+        "id": 4,
+        "productId": 29,
+        "isActive": true,
+        "recipeName": "",
+        "productionUnit": "Unidad",
+        "baseYield": 80,
+        "baseMateriaPrimaId": 2,
+        "baseQuantity": 45359.2,
+        "estimatedDailyQuantity": 10,
+        "ppd": 10,
+        "precioDefinitivo": 3000,
+        "hasPrecioDefinitivo": true,
+        "targetMarginPct": 30,
+        "pagoCocinaUnitario": 100,
+        "cantidadCocineros": 3,
+        "isPagoCocinaFijo": false,
+        "pagoDependienteUnitario": 75,
+        "pagoCajeroUnitario": 75
       }
     ],
     "recetaIngredientes": [
@@ -4403,6 +4461,55 @@
         "materiaPrimaId": 3,
         "quantity": 272.1552,
         "unit": "g"
+      },
+      {
+        "id": 26,
+        "productoElaboradoId": 29,
+        "materiaPrimaId": 2,
+        "quantity": 45359.2,
+        "unit": "g"
+      },
+      {
+        "id": 27,
+        "productoElaboradoId": 29,
+        "materiaPrimaId": 5,
+        "quantity": 2500,
+        "unit": "ml"
+      },
+      {
+        "id": 28,
+        "productoElaboradoId": 29,
+        "materiaPrimaId": 7,
+        "quantity": 615,
+        "unit": "g"
+      },
+      {
+        "id": 29,
+        "productoElaboradoId": 29,
+        "materiaPrimaId": 6,
+        "quantity": 625,
+        "unit": "g"
+      },
+      {
+        "id": 30,
+        "productoElaboradoId": 29,
+        "materiaPrimaId": 17,
+        "quantity": 24000,
+        "unit": "ml"
+      },
+      {
+        "id": 31,
+        "productoElaboradoId": 29,
+        "materiaPrimaId": 14,
+        "quantity": 50000,
+        "unit": "g"
+      },
+      {
+        "id": 32,
+        "productoElaboradoId": 29,
+        "materiaPrimaId": 3,
+        "quantity": 1360.7759999999998,
+        "unit": "g"
       }
     ],
     "mercaderias": [
@@ -4418,7 +4525,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 11200,
         "unitsPerLot": 24,
-        "dailySalesAverage": 80
+        "dailySalesAverage": 80,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 2,
@@ -4432,7 +4542,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 12480,
         "unitsPerLot": 24,
-        "dailySalesAverage": 50
+        "dailySalesAverage": 50,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 3,
@@ -4446,7 +4559,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 13440,
         "unitsPerLot": 24,
-        "dailySalesAverage": 50
+        "dailySalesAverage": 50,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 4,
@@ -4460,7 +4576,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 9000,
         "unitsPerLot": 6,
-        "dailySalesAverage": 1
+        "dailySalesAverage": 1,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 5,
@@ -4474,7 +4593,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 7200,
         "unitsPerLot": 12,
-        "dailySalesAverage": 1
+        "dailySalesAverage": 1,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 6,
@@ -4488,7 +4610,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 7200,
         "unitsPerLot": 12,
-        "dailySalesAverage": 5
+        "dailySalesAverage": 5,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 7,
@@ -4502,7 +4627,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 6000,
         "unitsPerLot": 12,
-        "dailySalesAverage": 1
+        "dailySalesAverage": 1,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 10,
@@ -4516,7 +4644,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 13680,
         "unitsPerLot": 24,
-        "dailySalesAverage": 1
+        "dailySalesAverage": 1,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 11,
@@ -4530,7 +4661,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 6720,
         "unitsPerLot": 12,
-        "dailySalesAverage": 1
+        "dailySalesAverage": 1,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 12,
@@ -4544,7 +4678,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 15600,
         "unitsPerLot": 24,
-        "dailySalesAverage": 1
+        "dailySalesAverage": 1,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       }
     ],
     "movimientosMercaderia": [
@@ -5354,7 +5491,7 @@
       "codigoNegocio": "001",
       "logoPath": null,
       "fechaCreacion": 1790131879377,
-      "fechaActualizacion": 1791345907639
+      "fechaActualizacion": 1791826066835
     },
     "configuracionGeneral": {
       "id": 1,
@@ -7667,14 +7804,14 @@
         "isActive": true,
         "stock": 9071.84,
         "initialStock": 9071.84,
-        "purchasePrice": 0,
+        "purchasePrice": 2300,
         "purchaseUnit": "kg",
         "purchaseQuantity": 1,
         "productId": null,
         "isAgregado": true,
         "rationQuantity": 35,
         "rationUnit": "g",
-        "suggestedPrice": 115.00000000000001,
+        "suggestedPrice": 304.1691751685434,
         "salePrice": 300,
         "stockEnVenta": 0,
         "racionesEnVenta": 0,
@@ -7687,18 +7824,18 @@
         "id": 18,
         "name": "Jamón",
         "unit": "g",
-        "unitCost": 2.4,
+        "unitCost": 363.05967459461664,
         "isActive": true,
         "stock": 900.5,
         "initialStock": 900.5,
         "purchasePrice": 2300,
         "purchaseUnit": "kg",
-        "purchaseQuantity": 5,
+        "purchaseQuantity": 1,
         "productId": 13,
         "isAgregado": true,
-        "rationQuantity": 40,
+        "rationQuantity": 50,
         "rationUnit": "g",
-        "suggestedPrice": 137.14285714285714,
+        "suggestedPrice": 405.93370389960353,
         "salePrice": 400,
         "stockEnVenta": 0,
         "racionesEnVenta": 0,
@@ -7711,18 +7848,18 @@
         "id": 21,
         "name": "Pimiento",
         "unit": "g",
-        "unitCost": 2.2266706643856153,
+        "unitCost": 2.2046226218487757,
         "isActive": true,
         "stock": 9071.84,
         "initialStock": 9071.84,
         "purchasePrice": 1000,
         "purchaseUnit": "lb",
-        "purchaseQuantity": 20,
+        "purchaseQuantity": 1,
         "productId": null,
         "isAgregado": true,
         "rationQuantity": 40,
         "rationUnit": "g",
-        "suggestedPrice": 127.23832367917802,
+        "suggestedPrice": 316.43993376048354,
         "salePrice": 300,
         "stockEnVenta": 0,
         "racionesEnVenta": 0,
@@ -7813,14 +7950,14 @@
         "isActive": true,
         "stock": 9071.84,
         "initialStock": 9071.84,
-        "purchasePrice": 0,
+        "purchasePrice": 2300,
         "purchaseUnit": "kg",
         "purchaseQuantity": 1,
         "productId": null,
         "isAgregado": true,
         "rationQuantity": 35,
         "rationUnit": "g",
-        "suggestedPrice": 115.00000000000001,
+        "suggestedPrice": 304.1691751685434,
         "salePrice": 300,
         "stockEnVenta": 0,
         "racionesEnVenta": 0,
@@ -7929,18 +8066,18 @@
         "id": 18,
         "name": "Jamón",
         "unit": "g",
-        "unitCost": 2.4,
+        "unitCost": 363.05967459461664,
         "isActive": true,
         "stock": 900.5,
         "initialStock": 900.5,
         "purchasePrice": 2300,
         "purchaseUnit": "kg",
-        "purchaseQuantity": 5,
+        "purchaseQuantity": 1,
         "productId": 13,
         "isAgregado": true,
-        "rationQuantity": 40,
+        "rationQuantity": 50,
         "rationUnit": "g",
-        "suggestedPrice": 137.14285714285714,
+        "suggestedPrice": 405.93370389960353,
         "salePrice": 400,
         "stockEnVenta": 0,
         "racionesEnVenta": 0,
@@ -8001,18 +8138,18 @@
         "id": 21,
         "name": "Pimiento",
         "unit": "g",
-        "unitCost": 2.2266706643856153,
+        "unitCost": 2.2046226218487757,
         "isActive": true,
         "stock": 9071.84,
         "initialStock": 9071.84,
         "purchasePrice": 1000,
         "purchaseUnit": "lb",
-        "purchaseQuantity": 20,
+        "purchaseQuantity": 1,
         "productId": null,
         "isAgregado": true,
         "rationQuantity": 40,
         "rationUnit": "g",
-        "suggestedPrice": 127.23832367917802,
+        "suggestedPrice": 316.43993376048354,
         "salePrice": 300,
         "stockEnVenta": 0,
         "racionesEnVenta": 0,
@@ -10631,8 +10768,8 @@
   },
   "productos": {
     "titulo": "PRODUCTOS",
-    "totalProductos": 21,
-    "totalProductosProduccion": 3,
+    "totalProductos": 22,
+    "totalProductosProduccion": 4,
     "totalProductosMercaderias": 18,
     "products": [
       {
@@ -10940,6 +11077,25 @@
         "presentacionesEspeciales": "[]"
       },
       {
+        "id": 29,
+        "code": "PF-C-0004",
+        "name": "Pizza Napolitana Familiar",
+        "category": "Cocina",
+        "price": 3000,
+        "cost": 1815.2983729730827,
+        "stock": 10,
+        "minStock": 3,
+        "destination": "COCINA",
+        "isAvailable": true,
+        "description": "Presentación especial (5.0x) de Pizza Napolitana Personal",
+        "unitOfMeasure": "Unidad",
+        "imagePath": null,
+        "admitsAgregados": false,
+        "agregadosList": "[]",
+        "isConvertedToInsumo": false,
+        "presentacionesEspeciales": "[]"
+      },
+      {
         "id": 13,
         "code": "PF-C-0001",
         "name": "Pizza Napolitana Personal",
@@ -11036,6 +11192,25 @@
       }
     ],
     "productosProduccion": [
+      {
+        "id": 29,
+        "code": "PF-C-0004",
+        "name": "Pizza Napolitana Familiar",
+        "category": "Cocina",
+        "price": 3000,
+        "cost": 1815.2983729730827,
+        "stock": 10,
+        "minStock": 3,
+        "destination": "COCINA",
+        "isAvailable": true,
+        "description": "Presentación especial (5.0x) de Pizza Napolitana Personal",
+        "unitOfMeasure": "Unidad",
+        "imagePath": null,
+        "admitsAgregados": false,
+        "agregadosList": "[]",
+        "isConvertedToInsumo": false,
+        "presentacionesEspeciales": "[]"
+      },
       {
         "id": 13,
         "code": "PF-C-0001",
@@ -11498,6 +11673,26 @@
         "isPagoCocinaFijo": true,
         "pagoDependienteUnitario": 10,
         "pagoCajeroUnitario": 10
+      },
+      {
+        "id": 4,
+        "productId": 29,
+        "isActive": true,
+        "recipeName": "",
+        "productionUnit": "Unidad",
+        "baseYield": 80,
+        "baseMateriaPrimaId": 2,
+        "baseQuantity": 45359.2,
+        "estimatedDailyQuantity": 10,
+        "ppd": 10,
+        "precioDefinitivo": 3000,
+        "hasPrecioDefinitivo": true,
+        "targetMarginPct": 30,
+        "pagoCocinaUnitario": 100,
+        "cantidadCocineros": 3,
+        "isPagoCocinaFijo": false,
+        "pagoDependienteUnitario": 75,
+        "pagoCajeroUnitario": 75
       }
     ],
     "recetaIngredientes": [
@@ -11640,6 +11835,55 @@
         "materiaPrimaId": 3,
         "quantity": 272.1552,
         "unit": "g"
+      },
+      {
+        "id": 26,
+        "productoElaboradoId": 29,
+        "materiaPrimaId": 2,
+        "quantity": 45359.2,
+        "unit": "g"
+      },
+      {
+        "id": 27,
+        "productoElaboradoId": 29,
+        "materiaPrimaId": 5,
+        "quantity": 2500,
+        "unit": "ml"
+      },
+      {
+        "id": 28,
+        "productoElaboradoId": 29,
+        "materiaPrimaId": 7,
+        "quantity": 615,
+        "unit": "g"
+      },
+      {
+        "id": 29,
+        "productoElaboradoId": 29,
+        "materiaPrimaId": 6,
+        "quantity": 625,
+        "unit": "g"
+      },
+      {
+        "id": 30,
+        "productoElaboradoId": 29,
+        "materiaPrimaId": 17,
+        "quantity": 24000,
+        "unit": "ml"
+      },
+      {
+        "id": 31,
+        "productoElaboradoId": 29,
+        "materiaPrimaId": 14,
+        "quantity": 50000,
+        "unit": "g"
+      },
+      {
+        "id": 32,
+        "productoElaboradoId": 29,
+        "materiaPrimaId": 3,
+        "quantity": 1360.7759999999998,
+        "unit": "g"
       }
     ],
     "mercaderias": [
@@ -11655,7 +11899,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 11200,
         "unitsPerLot": 24,
-        "dailySalesAverage": 80
+        "dailySalesAverage": 80,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 2,
@@ -11669,7 +11916,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 12480,
         "unitsPerLot": 24,
-        "dailySalesAverage": 50
+        "dailySalesAverage": 50,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 3,
@@ -11683,7 +11933,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 13440,
         "unitsPerLot": 24,
-        "dailySalesAverage": 50
+        "dailySalesAverage": 50,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 4,
@@ -11697,7 +11950,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 9000,
         "unitsPerLot": 6,
-        "dailySalesAverage": 1
+        "dailySalesAverage": 1,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 5,
@@ -11711,7 +11967,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 7200,
         "unitsPerLot": 12,
-        "dailySalesAverage": 1
+        "dailySalesAverage": 1,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 6,
@@ -11725,7 +11984,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 7200,
         "unitsPerLot": 12,
-        "dailySalesAverage": 5
+        "dailySalesAverage": 5,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 7,
@@ -11739,7 +12001,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 6000,
         "unitsPerLot": 12,
-        "dailySalesAverage": 1
+        "dailySalesAverage": 1,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 10,
@@ -11753,7 +12018,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 13680,
         "unitsPerLot": 24,
-        "dailySalesAverage": 1
+        "dailySalesAverage": 1,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 11,
@@ -11767,7 +12035,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 6720,
         "unitsPerLot": 12,
-        "dailySalesAverage": 1
+        "dailySalesAverage": 1,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       },
       {
         "id": 12,
@@ -11781,7 +12052,10 @@
         "purchaseMode": "POR LOTE",
         "purchasePrice": 15600,
         "unitsPerLot": 24,
-        "dailySalesAverage": 1
+        "dailySalesAverage": 1,
+        "pagoDependienteUnitario": 0,
+        "cantidadDependientes": 1,
+        "pagoCajeroUnitario": 0
       }
     ],
     "movimientosMercaderia": [
@@ -12591,7 +12865,7 @@
       "codigoNegocio": "001",
       "logoPath": null,
       "fechaCreacion": 1790131879377,
-      "fechaActualizacion": 1791345907639
+      "fechaActualizacion": 1791826066835
     },
     "configuracionGeneral": {
       "id": 1,
@@ -14488,7 +14762,7 @@
     "codigoNegocio": "001",
     "logoPath": null,
     "fechaCreacion": 1790131879377,
-    "fechaActualizacion": 1791345907639
+    "fechaActualizacion": 1791826066835
   },
   "configuracionGeneral": {
     "id": 1,
@@ -14601,14 +14875,14 @@
       "isActive": true,
       "stock": 9071.84,
       "initialStock": 9071.84,
-      "purchasePrice": 0,
+      "purchasePrice": 2300,
       "purchaseUnit": "kg",
       "purchaseQuantity": 1,
       "productId": null,
       "isAgregado": true,
       "rationQuantity": 35,
       "rationUnit": "g",
-      "suggestedPrice": 115.00000000000001,
+      "suggestedPrice": 304.1691751685434,
       "salePrice": 300,
       "stockEnVenta": 0,
       "racionesEnVenta": 0,
@@ -14717,18 +14991,18 @@
       "id": 18,
       "name": "Jamón",
       "unit": "g",
-      "unitCost": 2.4,
+      "unitCost": 363.05967459461664,
       "isActive": true,
       "stock": 900.5,
       "initialStock": 900.5,
       "purchasePrice": 2300,
       "purchaseUnit": "kg",
-      "purchaseQuantity": 5,
+      "purchaseQuantity": 1,
       "productId": 13,
       "isAgregado": true,
-      "rationQuantity": 40,
+      "rationQuantity": 50,
       "rationUnit": "g",
-      "suggestedPrice": 137.14285714285714,
+      "suggestedPrice": 405.93370389960353,
       "salePrice": 400,
       "stockEnVenta": 0,
       "racionesEnVenta": 0,
@@ -14789,18 +15063,18 @@
       "id": 21,
       "name": "Pimiento",
       "unit": "g",
-      "unitCost": 2.2266706643856153,
+      "unitCost": 2.2046226218487757,
       "isActive": true,
       "stock": 9071.84,
       "initialStock": 9071.84,
       "purchasePrice": 1000,
       "purchaseUnit": "lb",
-      "purchaseQuantity": 20,
+      "purchaseQuantity": 1,
       "productId": null,
       "isAgregado": true,
       "rationQuantity": 40,
       "rationUnit": "g",
-      "suggestedPrice": 127.23832367917802,
+      "suggestedPrice": 316.43993376048354,
       "salePrice": 300,
       "stockEnVenta": 0,
       "racionesEnVenta": 0,
@@ -15308,6 +15582,25 @@
       "presentacionesEspeciales": "[]"
     },
     {
+      "id": 29,
+      "code": "PF-C-0004",
+      "name": "Pizza Napolitana Familiar",
+      "category": "Cocina",
+      "price": 3000,
+      "cost": 1815.2983729730827,
+      "stock": 10,
+      "minStock": 3,
+      "destination": "COCINA",
+      "isAvailable": true,
+      "description": "Presentación especial (5.0x) de Pizza Napolitana Personal",
+      "unitOfMeasure": "Unidad",
+      "imagePath": null,
+      "admitsAgregados": false,
+      "agregadosList": "[]",
+      "isConvertedToInsumo": false,
+      "presentacionesEspeciales": "[]"
+    },
+    {
       "id": 13,
       "code": "PF-C-0001",
       "name": "Pizza Napolitana Personal",
@@ -15463,6 +15756,26 @@
       "isPagoCocinaFijo": true,
       "pagoDependienteUnitario": 10,
       "pagoCajeroUnitario": 10
+    },
+    {
+      "id": 4,
+      "productId": 29,
+      "isActive": true,
+      "recipeName": "",
+      "productionUnit": "Unidad",
+      "baseYield": 80,
+      "baseMateriaPrimaId": 2,
+      "baseQuantity": 45359.2,
+      "estimatedDailyQuantity": 10,
+      "ppd": 10,
+      "precioDefinitivo": 3000,
+      "hasPrecioDefinitivo": true,
+      "targetMarginPct": 30,
+      "pagoCocinaUnitario": 100,
+      "cantidadCocineros": 3,
+      "isPagoCocinaFijo": false,
+      "pagoDependienteUnitario": 75,
+      "pagoCajeroUnitario": 75
     }
   ],
   "recetaIngredientes": [
@@ -15604,6 +15917,55 @@
       "productoElaboradoId": 13,
       "materiaPrimaId": 3,
       "quantity": 272.1552,
+      "unit": "g"
+    },
+    {
+      "id": 26,
+      "productoElaboradoId": 29,
+      "materiaPrimaId": 2,
+      "quantity": 45359.2,
+      "unit": "g"
+    },
+    {
+      "id": 27,
+      "productoElaboradoId": 29,
+      "materiaPrimaId": 5,
+      "quantity": 2500,
+      "unit": "ml"
+    },
+    {
+      "id": 28,
+      "productoElaboradoId": 29,
+      "materiaPrimaId": 7,
+      "quantity": 615,
+      "unit": "g"
+    },
+    {
+      "id": 29,
+      "productoElaboradoId": 29,
+      "materiaPrimaId": 6,
+      "quantity": 625,
+      "unit": "g"
+    },
+    {
+      "id": 30,
+      "productoElaboradoId": 29,
+      "materiaPrimaId": 17,
+      "quantity": 24000,
+      "unit": "ml"
+    },
+    {
+      "id": 31,
+      "productoElaboradoId": 29,
+      "materiaPrimaId": 14,
+      "quantity": 50000,
+      "unit": "g"
+    },
+    {
+      "id": 32,
+      "productoElaboradoId": 29,
+      "materiaPrimaId": 3,
+      "quantity": 1360.7759999999998,
       "unit": "g"
     }
   ],
@@ -18217,7 +18579,10 @@
       "purchaseMode": "POR LOTE",
       "purchasePrice": 11200,
       "unitsPerLot": 24,
-      "dailySalesAverage": 80
+      "dailySalesAverage": 80,
+      "pagoDependienteUnitario": 0,
+      "cantidadDependientes": 1,
+      "pagoCajeroUnitario": 0
     },
     {
       "id": 2,
@@ -18231,7 +18596,10 @@
       "purchaseMode": "POR LOTE",
       "purchasePrice": 12480,
       "unitsPerLot": 24,
-      "dailySalesAverage": 50
+      "dailySalesAverage": 50,
+      "pagoDependienteUnitario": 0,
+      "cantidadDependientes": 1,
+      "pagoCajeroUnitario": 0
     },
     {
       "id": 3,
@@ -18245,7 +18613,10 @@
       "purchaseMode": "POR LOTE",
       "purchasePrice": 13440,
       "unitsPerLot": 24,
-      "dailySalesAverage": 50
+      "dailySalesAverage": 50,
+      "pagoDependienteUnitario": 0,
+      "cantidadDependientes": 1,
+      "pagoCajeroUnitario": 0
     },
     {
       "id": 4,
@@ -18259,7 +18630,10 @@
       "purchaseMode": "POR LOTE",
       "purchasePrice": 9000,
       "unitsPerLot": 6,
-      "dailySalesAverage": 1
+      "dailySalesAverage": 1,
+      "pagoDependienteUnitario": 0,
+      "cantidadDependientes": 1,
+      "pagoCajeroUnitario": 0
     },
     {
       "id": 5,
@@ -18273,7 +18647,10 @@
       "purchaseMode": "POR LOTE",
       "purchasePrice": 7200,
       "unitsPerLot": 12,
-      "dailySalesAverage": 1
+      "dailySalesAverage": 1,
+      "pagoDependienteUnitario": 0,
+      "cantidadDependientes": 1,
+      "pagoCajeroUnitario": 0
     },
     {
       "id": 6,
@@ -18287,7 +18664,10 @@
       "purchaseMode": "POR LOTE",
       "purchasePrice": 7200,
       "unitsPerLot": 12,
-      "dailySalesAverage": 5
+      "dailySalesAverage": 5,
+      "pagoDependienteUnitario": 0,
+      "cantidadDependientes": 1,
+      "pagoCajeroUnitario": 0
     },
     {
       "id": 7,
@@ -18301,7 +18681,10 @@
       "purchaseMode": "POR LOTE",
       "purchasePrice": 6000,
       "unitsPerLot": 12,
-      "dailySalesAverage": 1
+      "dailySalesAverage": 1,
+      "pagoDependienteUnitario": 0,
+      "cantidadDependientes": 1,
+      "pagoCajeroUnitario": 0
     },
     {
       "id": 10,
@@ -18315,7 +18698,10 @@
       "purchaseMode": "POR LOTE",
       "purchasePrice": 13680,
       "unitsPerLot": 24,
-      "dailySalesAverage": 1
+      "dailySalesAverage": 1,
+      "pagoDependienteUnitario": 0,
+      "cantidadDependientes": 1,
+      "pagoCajeroUnitario": 0
     },
     {
       "id": 11,
@@ -18329,7 +18715,10 @@
       "purchaseMode": "POR LOTE",
       "purchasePrice": 6720,
       "unitsPerLot": 12,
-      "dailySalesAverage": 1
+      "dailySalesAverage": 1,
+      "pagoDependienteUnitario": 0,
+      "cantidadDependientes": 1,
+      "pagoCajeroUnitario": 0
     },
     {
       "id": 12,
@@ -18343,7 +18732,10 @@
       "purchaseMode": "POR LOTE",
       "purchasePrice": 15600,
       "unitsPerLot": 24,
-      "dailySalesAverage": 1
+      "dailySalesAverage": 1,
+      "pagoDependienteUnitario": 0,
+      "cantidadDependientes": 1,
+      "pagoCajeroUnitario": 0
     }
   ],
   "movimientosMercaderia": [
